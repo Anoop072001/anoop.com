@@ -23,14 +23,14 @@
     }
   
     .hero-image {
+        filter: brightness(80%);
         max-width: 100%;
         height: auto;
         transform: scale(0.9);
         min-width: 500px; /* Adjust as needed */
         min-height: 800px; /* Adjust as needed */
         transform-origin: center center;/* Set your desired height */
-      background: url('C:\Users\anoop\Desktop\Web dev\portfolio\anoop.com\public\portfolio-img.png') center/cover; /* Set your image path and styling */
-      
+        background: url('C:\Users\anoop\Desktop\Web dev\portfolio\anoop.com\public\portfolio-img.png') center/cover;
       
     }
     
