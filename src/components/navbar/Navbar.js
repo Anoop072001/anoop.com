@@ -1,9 +1,18 @@
 import "./Navbar.css";
 import logo from "./logo.png";
-import React from "react";
+import React, { useState } from "react";
 function Navbar() {
+  const [ham, setHam] = useState(0);
+  function HamNav() {
+    if (ham) {
+      return <> &#x2716;</>;
+    } else {
+      return <>&#9776;</>;
+    }
+  }
   function MobNav() {
     document.querySelector(".nav-links").classList.toggle("show");
+    setHam(!ham);
   }
   return (
     <nav className="navbar">
@@ -16,8 +25,8 @@ function Navbar() {
         <a href="#projects">Projects</a>
         <a href="#testimonials">Testimonials</a>
       </div>
-      <div class="hamburger" onClick={MobNav}>
-        &#9776;
+      <div className="hamburger" onClick={MobNav}>
+        <HamNav />
       </div>
     </nav>
   );

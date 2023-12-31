@@ -25,12 +25,21 @@ function Hero() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [wordIndex, isDeleting, text]);
   return (
-    <div className="hero-section">
-      <div className="hero-content">
-        <h1>Hi! I'm Anoop</h1>
-        <p>{text}</p>
+    <div className="hero-all">
+      <div className="hero-section">
+        <div className="hero-content">
+          <h1>Hi! I'm Anoop</h1>
+          <p>{text}</p>
+        </div>
+        <div className="hero-image"></div>
       </div>
-      <div className="hero-image"></div>
+      <div className="quote">
+        <p>
+          "Elevating Code to Art, Turning Ideas into Innovation. In the realm of
+          programming, possibilities are endless, and I'm here to craft the
+          extraordinary.”
+        </p>
+      </div>
     </div>
   );
 }

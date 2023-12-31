@@ -1,51 +1,71 @@
+
 .hero-section {
-    display: flex;
-    justify-content: space-between;
+
+    display:flex;
+    justify-content: center;
     align-items: center;
-    padding: 40px;
-    /* background-color: #333; Set your desired background color */
-  
+    flex-wrap: wrap;
+    margin-bottom: 0%;
+    padding: 0%;
+    
+
+}
+    
     .hero-content {
-      flex: 1;
+     
       color: white;
-  
+      
       h1 {
         font-size: 64px;
+        font-family: 'Inter', sans-serif;
         margin-bottom: 5px;
+        color: #D6FB41;
        
       }
   
       p {
+        font-family: 'Inter', sans-serif;
         font-size: 24px;
-        opacity: 0.8;
-        position: fixed;
+        opacity: 0.6;
+        position:absolute;
       }
     }
-  
+    
     .hero-image {
+     
         filter: brightness(80%);
-        max-width: 100%;
-        height: auto;
-        transform: scale(0.9);
-        min-width: 500px; /* Adjust as needed */
-        min-height: 800px; /* Adjust as needed */
-        transform-origin: center center;/* Set your desired height */
+        transform: scale(0.8);
+        min-width: 500px;
+        min-height: 800px; 
         background: url('C:\Users\anoop\Desktop\Web dev\portfolio\anoop.com\public\portfolio-img.png') center/cover;
-      
+        opacity: 0.9;
+       
+    }
+    .quote{
+      padding:40px;
+      margin-top: -80px;
+      background-color: #E2E2E2;
+      display: flex;
+      flex-basis: 100%;
+      align-items: center;
+      justify-content: center;
+      height:fit-content;
+      p {
+        font-family: 'Inter', sans-serif;
+        font-weight: lighter;
+        font-size: 24px;
+        font-style: italic;
+        width: 100vh;
+          text-align: center;
+          color: black;
+          opacity:0.6 ;
+          line-height: 1.2;
+      }
     }
     
-    /* .hero-image::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: linear-gradient(45deg, #ff8a00, #e52e71); /* Set your desired gradient colors */
-      /* opacity: 0.5;  */
-  }
+
   
-  @media only screen and (max-width: 768px) {
+  @media  (max-width: 768px) {
     .hero-section {
       flex-direction: column;
       padding: 20px;
@@ -63,9 +83,19 @@
       }
   
       .hero-image {
-        margin-top: 20px;
-        height: 200px;
+        margin-top: 50px;
+        min-width: 300px; 
+        min-height: 450px;
+      }
+      
+    }
+    .quote{
+      padding: 20px;
+      margin-top: -65px;
+      p {
+        font-size: 1rem;
       }
     }
+
   }
   
