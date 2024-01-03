@@ -1,6 +1,7 @@
 import "./Navbar.css";
 import logo from "./logo.png";
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 function Navbar() {
   const [ham, setHam] = useState(0);
   function HamNav() {
@@ -20,10 +21,46 @@ function Navbar() {
         <img src={logo} alt="Your Logo" />
       </div>
       <div className="nav-links">
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#testimonials">Testimonials</a>
+        <Link
+          to="hero"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+          onClick={MobNav}
+        >
+          About
+        </Link>
+        <Link
+          to="experience"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          onClick={MobNav}
+        >
+          Experience
+        </Link>
+        <Link
+          to="projects"
+          spy={true}
+          smooth={true}
+          offset={-50}
+          duration={500}
+          onClick={MobNav}
+        >
+          Projects
+        </Link>
+        <Link
+          to="testimonials"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          onClick={MobNav}
+        >
+          Testimonials
+        </Link>
       </div>
       <div className="hamburger" onClick={MobNav}>
         <HamNav />

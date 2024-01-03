@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./Hero.css";
 function Hero() {
   const words = ["Developer>>>", "Desinger>>>", "Coder>>>"];
@@ -24,8 +24,10 @@ function Hero() {
     return () => clearTimeout(timer);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [wordIndex, isDeleting, text]);
+
+  const about = useRef(null);
   return (
-    <div className="hero-all">
+    <div ref={about} className="hero-all" id="hero">
       <div className="hero-section">
         <div className="hero-content">
           <h1>Hi! I'm Anoop</h1>

@@ -30,8 +30,8 @@ function Experience() {
 
   return (
     <>
-      <div ref={ref} className="experience-whole">
-        <h1 style={{ textAlign: "Left", fontWeight: "400" }}>
+      <div ref={ref} className="experience-whole" id="experience">
+        <h1 style={{ textAlign: "Left", fontWeight: "bold" }}>
           Where have I worked?
         </h1>
         <motion.div className="progress-bar" style={{ scaleY }} />

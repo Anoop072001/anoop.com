@@ -8,7 +8,9 @@
     gap: 45px;
     
     h1{
-        color: #D6FB41;
+        color: #E2E2E2;
+        font-weight: bold;
+        font-size: 36px;
     }
   }
   
@@ -41,6 +43,11 @@
   }
 
   @media  (max-width: 768px) {
+    .experience-whole{
+        h1{
+            font-size: 32px;
+        }
+    }
     .progress-bar{
         width: 2px;
         margin-top: 4%;
