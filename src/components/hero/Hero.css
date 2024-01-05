@@ -44,7 +44,7 @@
         transform: scale(0.8);
         min-width: 500px;
         min-height: 800px; 
-        background: url('C:\Users\anoop\Desktop\Web dev\portfolio\anoop.com\public\portfolio-img.png') center/cover;
+        background: url('../../../public/portfolio-img.png') center/cover;
         opacity: 0.9;
        
     }
