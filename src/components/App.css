@@ -9,3 +9,9 @@ body{
 body::-webkit-scrollbar {
     width: 0; /* Set the width of the scrollbar */
   }
+
+  @media  (max-wdith:768px) {
+   body{
+    width: 100vh;
+   }
+  }

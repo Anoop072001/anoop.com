@@ -20,17 +20,18 @@ function Project() {
     }
   }, [isInView, mainControls]);
   return (
-    <div className="projects" id="projects">
-      <motion.div
-        ref={ref1}
-        className="heading"
-        variants={variants}
-        initial="hidden"
-        animate={mainControls}
-        transition={transition}
-      >
+    <motion.div
+      className="projects"
+      id="projects"
+      ref={ref1}
+      variants={variants}
+      initial="hidden"
+      animate={mainControls}
+      transition={transition}
+    >
+      <div className="heading">
         <h1>My Notable Works</h1>
-      </motion.div>
+      </div>
 
       <div className="contents">
         <div className="img">
@@ -79,7 +80,7 @@ function Project() {
           </a>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

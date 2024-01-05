@@ -1,0 +1,36 @@
+.footer-container {
+    background-color: #0e0e0e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-top: #333 solid 1px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p{
+        color: #D6FB41;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: italic;
+    }
+  }
+  
+  button {
+    background-color: #D6FB41;
+    color: #000;
+    padding: 10px;
+    border: #D6FB41 solid 1px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight:bold ;
+  }
+  
+  button:hover {
+    background-color: #000;
+    color: #fff;
+    border: #000 solid 1px;
+  }
+  

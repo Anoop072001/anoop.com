@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Hero.css";
+import { FaGithub, FaLinkedin, FaBehance } from "react-icons/fa";
 function Hero() {
   const words = ["Developer>>>", "Desinger>>>", "Coder>>>"];
   const [wordIndex, setWordIndex] = useState(0);
@@ -31,7 +32,29 @@ function Hero() {
       <div className="hero-section">
         <div className="hero-content">
           <h1>Hi! I'm Anoop</h1>
-          <p>{text}</p>
+          <div className="typer">
+            <p>{text}</p>
+          </div>
+          <div className="social">
+            <a href="https://www.linkedin.com/in/anoop07122001/">
+              <FaLinkedin
+                color="#D6FB41"
+                style={{ margin: "0 20px 0 10px", scale: "2" }}
+              />
+            </a>
+            <a href="https://github.com/Anoop072001">
+              <FaGithub
+                color="#D6FB41"
+                style={{ margin: "0 20px 0 10px", scale: "2" }}
+              />
+            </a>
+            <a href="https://www.behance.net/anoopsidhan">
+              <FaBehance
+                color="#D6FB41"
+                style={{ margin: "0 20px 0 10px", scale: "2" }}
+              />
+            </a>
+          </div>
         </div>
         <div className="hero-image"></div>
       </div>
