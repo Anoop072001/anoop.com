@@ -3,7 +3,7 @@ const companies = [
     key: 1,
     company: "Levantate Labs",
     role: "UI Developer",
-    tenure: "16 Dec 2023 - Present",
+    tenure: "Dec 2023 - Present",
   },
   {
     key: 2,
