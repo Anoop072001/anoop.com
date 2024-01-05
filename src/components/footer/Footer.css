@@ -4,6 +4,7 @@
     padding: 20px;
     text-align: center;
     border-top: #333 solid 1px;
+    overflow: hidden;
   }
   
   .footer-content {

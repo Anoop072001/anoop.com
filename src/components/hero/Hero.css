@@ -1,4 +1,6 @@
-
+.hero-all{
+ overflow: hidden;
+}
 .hero-section {
   
     display:flex;
