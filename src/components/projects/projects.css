@@ -39,6 +39,7 @@
     .pro{
         max-width: fit-content;
         width: 400px;
+        padding: 0 0 0 5%;
         span{
             color: #D6FB41;
         }
@@ -68,6 +69,11 @@
 }
 
 @media  (max-width: 768px){
+    .heading{
+        h1{
+        font-size: 32px;
+        }
+    }
     .contents .img{
         img{
             max-height: 300px;
