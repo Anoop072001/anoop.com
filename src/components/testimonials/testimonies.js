@@ -27,7 +27,7 @@ const testimonies = [
     src: "./akhil.jpeg",
     role: "Founder @Levantate Labs",
     name: "Akhil P Raj",
-    test: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    test: "Anoop is an exceptional talent when it comes to adapting to new landscapes in technologies. A fast learner indeed but more than that a really great engineer.",
   },
 ];
 
