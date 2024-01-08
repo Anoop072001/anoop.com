@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import "./Hero.css";
 import { FaGithub, FaLinkedin, FaBehance } from "react-icons/fa";
 function Hero() {
-  const words = ["Developer>>>", "Desinger>>>", "Coder>>>"];
+  const words = ["Developer>>>", "Designer>>>", "Coder>>>"];
   const [wordIndex, setWordIndex] = useState(0);
   const [text, setText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);

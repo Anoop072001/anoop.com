@@ -29,6 +29,12 @@ const testimonies = [
     name: "Akhil P Raj",
     test: "Anoop is an exceptional talent when it comes to adapting to new landscapes in technologies. A fast learner indeed but more than that a really great engineer.",
   },
+  {
+    src: "./alvin.jpeg",
+    role: "Engineer @Tata Elxsi",
+    name: "Alvin Antony M S",
+    test: "Anoop, an exceptional colleague and brilliant problem solver, showcased dedication and teamwork during our month-long collaboration at Tata Elxsi. His outstanding contributions, from leading initiatives in our college IEDC cell to winning hackathons, highlight his excellence. Moreover, Anoop's approachability makes him not just a skilled professional but also a friendly and highly accessible team member, enhancing the positive atmosphere in our interactions.",
+  },
 ];
 
 export default testimonies;
