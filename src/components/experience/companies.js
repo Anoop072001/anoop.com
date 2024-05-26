@@ -1,15 +1,15 @@
 const companies = [
   {
     key: 1,
-    company: "Levantate Labs",
-    role: "UI Developer",
-    tenure: "Dec 2023 - Present",
+    company: "IBM Pvt Ltd",
+    role: "Test Specialist Fullstack",
+    tenure: "Feb 2024 - Present",
   },
   {
-    key: 2,
-    company: "Tata Elxsi LTD",
-    role: "Engineer",
-    tenure: "Nov 2023 - Dec 2023",
+       key: 2,
+       company: "Levantate Labs",
+       role: "UI Developer",
+       tenure: "Nov 2023 - Feb 2024",
   },
   {
     key: 3,
